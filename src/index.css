@@ -1,0 +1,137 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+
+body {
+    background-image: url(background.jpg);
+    
+}
+
+.container {
+    margin: 3% 25%;
+    width: 50%;
+    height: 94%;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+
+}
+
+header {
+    background-color: #333333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    line-height: 1.5;
+
+}
+
+header h1 {
+    border: 2px solid white;
+    margin-bottom: 5px;
+    font-size: 32px;
+    letter-spacing: 10px;
+    margin: 10px 80px;
+}
+
+header h2 {
+    font-size: 16px;
+    font-weight: 300;
+    letter-spacing: 8px;
+}
+
+header p {
+    border-bottom: 2px solid white;
+    width: 55px;
+    margin-left: 300px;
+    margin-top: 5px;
+}
+
+.content {
+    display: flex;
+    padding-top: 30px;
+}
+
+.sidebar {
+    text-align: right;
+    background-color: #d1ddd3;
+    width: 30%;
+    margin-right: 30px;
+    padding: 20px;
+    line-height: 1.5;
+    padding-bottom: 100px;
+}
+
+.sidebar h3 {
+   
+    margin: 15px 0px;
+    color: #333;
+    letter-spacing: 4px;
+}
+.expertise div{
+    padding-bottom:15px;
+    letter-spacing: 2px; 
+}
+.expertise div p{
+    line-height: 1.2pc;
+}
+
+.sidebar p {
+    font-size: 13px;
+    line-height: 2;
+    color: #666;
+}
+
+
+.education div{
+    padding-bottom: 15px;
+}
+.education div p{
+   
+    font-size: 15px;
+    line-height:1.2pc;
+}
+.main-content {
+    padding-top: 37px;
+    padding-right: 25px;
+    width: 65%;
+
+}
+.profile,
+.experience {
+    margin-bottom: 20px;
+}
+
+.profile h3,
+.experience h3 {
+    font-weight: bolder;
+    margin-bottom: 18px;
+    color: #333;
+    letter-spacing: 5px;
+}
+
+.profile p,
+.experience p {
+    margin-bottom: 30px;
+    font-size: 14px;
+    line-height: 1.6;
+    color: #666;
+}
+.experience div{
+    padding-bottom: 10px;
+    line-height: 1.5pc;
+}
+.experience div p{  
+    font-size: 15px;
+    margin-bottom: 0px;
+}
+.experience h6{
+    font-size: 12px;
+    letter-spacing: 2px;
+    color:#454545;
+   
+}
