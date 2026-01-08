@@ -1,2 +1,4 @@
+.dockerignore
 .git
-docs/
+.gitignore
+docs
